@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: rgb(0, 0, 37);
   overflow-x: hidden;
@@ -222,6 +225,7 @@ a{
 
 .App__content__About{
   /* background-color: red; */
+  opacity: 0 ;
   position: relative;
   top: 200px;
   text-align: left;
@@ -230,6 +234,12 @@ a{
   align-items: left;
   margin: auto;
   width: 70vw;
+  transition: 1s;
+}
+.hidden__section{
+  opacity: 1 !important;
+  /* background-color: red; */
+
 }
 .App__content__About h2{
   font-size: 70px;
@@ -248,6 +258,7 @@ a{
 }
 .App__content__Education{
   /* background-color: red; */
+  opacity: 0 ;
   top: 300px;
   position: relative;
   display: flex;
@@ -256,9 +267,11 @@ a{
   justify-content: space-between;
   margin: auto;
   width: 70vw;
+  transition: 1s;
 }
 .App__content__Work{
   /* background-color: red; */
+  opacity: 0 ;
   top: 2000px;
   position: relative;
   display: flex;
@@ -267,19 +280,22 @@ a{
   justify-content: space-between;
   margin: auto;
   width: 70vw;
+  transition: 1s;
 }
 
 .App__content__FunFacts{
    /* background-color: red; */
-   position: relative;
-   top: 100px;
-  display: flex;
- flex-direction: column;
-  flex-wrap: wrap;
-  align-items: left;
-  justify-content: space-between;
-  margin: auto;
-  width: 70vw;
+    opacity: 0 ;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    margin: auto;
+    width: 70vw;
+    transition: 1s;
+    
 }
 .icon__menu{
   display: none;
@@ -398,8 +414,9 @@ a{
   width: 400px;
 }
 .fun__box{
+
   cursor: default;
-  margin: 50px;
+  margin: 20px;
   padding: 8px;
   border-radius: 5px;
   box-shadow: 1px 1px 10px black;

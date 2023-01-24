@@ -12,7 +12,7 @@ function HandleClick(){
   span_menu.classList.toggle("NavbarMini__span__hidden")
 }
 
-// console.log(window.scrollY)
+
 
 return (
 <div className='Navbar__container'>

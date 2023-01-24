@@ -57,9 +57,28 @@ if(subida){
 }
 
 
+if(window.scrollY > 610 && window.scrollY < 1270){
+  let section = document.querySelector(".App__content__About")
+  section.classList.add("hidden__section")
+}
+if(window.scrollY > 1380 && window.scrollY < 2170){
+  let section1 = document.querySelector(".App__content__Education")
+  section1.classList.add("hidden__section")
+}
+if(window.scrollY > 2280 && window.scrollY < 4400){
+  let section2 = document.querySelector(".App__content__Work")
+  section2.classList.add("hidden__section")
+}
+if(window.scrollY > 4400){
+  let section3 = document.querySelector(".App__content__FunFacts")
+  section3.classList.add("hidden__section")
+}
+
+console.log(window.scrollY)
+
   return (
     <div className="App">
-      {/* { showingAnimation && <Animation/>} */}
+      { showingAnimation && <Animation/>}
       <Navbar/>
       <NavbarMini/>
       
@@ -110,7 +129,7 @@ if(subida){
           <br></br>
           <br></br>
           <br></br>
-          <br></br>
+        
           <span id='Education'> 02. Education</span>
           <br></br>
 
