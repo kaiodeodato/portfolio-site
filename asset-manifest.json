@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.d1e0320e.css",
-    "main.js": "/portfolio-site/static/js/main.6705fc9f.js",
+    "main.css": "/portfolio-site/static/css/main.f49a012e.css",
+    "main.js": "/portfolio-site/static/js/main.56013077.js",
     "static/media/RESUME.pdf": "/portfolio-site/static/media/RESUME.c7522ce6b96e8f1e9339.pdf",
     "static/media/image2.png": "/portfolio-site/static/media/image2.708d3fa65e89eb0e87a6.png",
     "static/media/image5.png": "/portfolio-site/static/media/image5.39decf7bff28a4ac9038.png",
@@ -14,11 +14,11 @@
     "static/media/theVoicePortugal.jpg": "/portfolio-site/static/media/theVoicePortugal.992bd4b529b766f23455.jpg",
     "static/media/album.jpg": "/portfolio-site/static/media/album.3cdae96aa82daca383dd.jpg",
     "index.html": "/portfolio-site/index.html",
-    "main.d1e0320e.css.map": "/portfolio-site/static/css/main.d1e0320e.css.map",
-    "main.6705fc9f.js.map": "/portfolio-site/static/js/main.6705fc9f.js.map"
+    "main.f49a012e.css.map": "/portfolio-site/static/css/main.f49a012e.css.map",
+    "main.56013077.js.map": "/portfolio-site/static/js/main.56013077.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1e0320e.css",
-    "static/js/main.6705fc9f.js"
+    "static/css/main.f49a012e.css",
+    "static/js/main.56013077.js"
   ]
 }
