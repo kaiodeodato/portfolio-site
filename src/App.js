@@ -16,7 +16,7 @@ import image1 from './components/images/image1.png';
 import image2 from './components/images/image2.png';
 import image3 from './components/images/image3.png';
 import image4 from './components/images/image4.png';
-import image5 from './components/images/image5.png';
+import image6 from './components/images/image6.png';
 
 import './App.css';
 
@@ -254,6 +254,20 @@ console.log(window.scrollY)
               Nintendo switch built from scratch with advanced knowledge of CSS, 
               transformed into an interactive Portfolio. Contains my small projects
                and fun games to demonstrate logic and programming skills.
+              </span>
+            </div>
+          </div>
+
+          <div className='work__box'>
+            <a target="_blank" href='https://vansshopclone.web.app/'> 
+              <img className='work__container__image' src={image6}></img>
+            </a>
+            <div className='work__info'>
+              <h3>
+                Vans Store Clone
+              </h3>
+              <span className='work__title' >
+              A Vans store clone in React.js,a multi-page web application that replicates the online shopping experience of a Vans store. It utilizes React.js as the front-end library to create a dynamic and responsive user interface.
               </span>
             </div>
           </div>
